@@ -1,0 +1,17 @@
+{
+  "name": "hichat",
+  "version": "1.0.0",
+  "description": "a realtime chat web application",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start":"node app.js",
+    "test": "tap test/*.js"
+  },
+  "author": "Dongson20",
+  "license": "ISC"
+}
